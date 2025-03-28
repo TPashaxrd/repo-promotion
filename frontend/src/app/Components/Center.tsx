@@ -3,7 +3,6 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import IMGH from "../Images/github-restaurant.png";
 import { config } from "./data/config";
-import { BiDownload } from "react-icons/bi";
 import { BsStar } from "react-icons/bs";
 import { FaCopy } from "react-icons/fa";
 import toast, { Toaster } from "react-hot-toast";

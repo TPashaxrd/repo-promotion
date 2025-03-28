@@ -1,6 +1,7 @@
 "use client";
-import toast, { Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
 import { config } from "./data/config";
+import Link from "next/link";
 
 const Header = () => {
 
@@ -36,7 +37,7 @@ const Header = () => {
           <ul className="flex space-x-6">
             <li>
               <button className="px-2 py-2 rounded-1xl hover:text-gray-200 transition">
-                <a href="/">Anasayfa</a>
+                <Link href="/">Anasayfa</Link>
               </button>
             </li>
             <li>
